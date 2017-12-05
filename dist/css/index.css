@@ -1,0 +1,31 @@
+header .top {
+  height: 36px;
+  background: #555555;
+  color: #ffffff; }
+  header .top a {
+    color: #ffffff; }
+  header .top * {
+    line-height: 36px;
+    height: 100%; }
+  header .top > ul {
+    margin-bottom: 0; }
+header .footer {
+  height: 67px;
+  border-top: 1px solid #ecc000;
+  background: #f7f7f7; }
+  header .footer .logo {
+    height: 100%;
+    position: relative; }
+    header .footer .logo a {
+      background: url("/web/licaibao/imgs/logo@1x.png") no-repeat;
+      display: inline-block;
+      width: 140px;
+      height: 32px;
+      position: absolute;
+      top: 17px;
+      left: 24px; }
+
+.text-hidden {
+  text-indent: -2000px; }
+
+/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,44 @@
+$white-color:#ffffff;
+header{
+	.top{
+		height:36px;
+		background:rgb(85,85,85);
+		color:$white-color;
+
+		a{
+			color:$white-color;
+		}
+
+		*{
+			line-height:36px;
+			height:100%;
+		}
+
+		>ul{
+			margin-bottom:0;
+		}
+	}
+
+	.footer{
+		height:67px;
+		border-top:1px solid #ecc000;
+		background:#f7f7f7;
+		.logo{
+			height:100%;
+			position:relative;
+			a{
+				background:url('/web/licaibao/imgs/logo@1x.png') no-repeat;
+				display:inline-block;
+				width:140px;
+				height:32px;
+				position:absolute;
+				top:17px;
+				left:24px;
+			}
+		}
+	}
+}
+
+.text-hidden{
+	text-indent: -2000px;
+}
